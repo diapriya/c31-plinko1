@@ -23,7 +23,7 @@ class Particle {
     noStroke();
     fill (this.color)
     ellipseMode(RADIUS);
-    ellipse(pos.x,pos.y,5);
+    ellipse(pos.x,pos.y,10);
     pop();
   }
 
